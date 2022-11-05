@@ -25,4 +25,4 @@ npm run build
 ```
 
 It should look like this if successful
-<img width="1440" alt="Screen Shot 2022-11-02 at 19 30 22" src="https://user-images.githubusercontent.com/66765302/199572589-43bd05b7-95a6-455c-bc25-3cd437c95339.png">
+<img width="1440" alt="Screenshot 2022-11-05 231814" src="https://user-images.githubusercontent.com/64992501/200143512-dd5d7fb0-ff58-4239-ae02-5aeeecc82b42.png">
