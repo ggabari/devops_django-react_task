@@ -1,21 +1,15 @@
-Version: "3.8"
+version: '3.3'
 
 services:
    django:
-     container_name: api
+     container_name: web-backend
      build:
        context: ./api
-     env_file:
-       - ./api/.env
      ports:
        - 8000:8000
-     volumes:
-         - ./api:/api
    react:
-     container_name: app
+     container_name: web-frontend
      build:
-       context: ./app
+       context: ./frontend
      ports:
        - 3000:3000
-     volumes:
-       - ./app/src:/app/src
